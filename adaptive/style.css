@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'linkinpark'; 
+    src: url('linkinpark_chase/linkinpark.ttf') format('truetype'); 
+}
+
+body {
+   margin: 0px;
+   padding: 0px; 
+   font-family: Poppins;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 20vh;
+}
+
+.logo-bar{
+    display: flex;
+    justify-content: left;
+    width: 200px;
+    margin: 35px 0px 33px 0px;
+    padding: 0px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+h3{
+    font-family: 'linkinpark', sans-serif; 
+    width: 121px;
+    height: 36px;
+}
+
+p{
+    color: rgb(50, 50, 50);
+    font-size: clamp(10px, 2vw, 16px);
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin: 10px;
+}
+
+.main-page{
+    color: rgb(247, 132, 52);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+}
+
+.button-bar{
+    display: flex;
+    flex-direction: row;
+    width: 620px;
+    height: 23px;
+}
+
+main{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    width: 67%;
+    height: 676px;
+    position: relative;
+    left: 300px;
+    justify-content: space-between;
+    
+}
+
+main h1{
+    color: rgb(50, 50, 50);
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 79px;
+    letter-spacing: 0.8px;
+    text-align: left;
+    position: absolute;
+    width: 674px;
+    height: 237px;
+    left: 160px;
+    bottom: 213px;
+    
+}
+
+main p{
+    position: absolute;
+    width: 467px;
+    height: 54px;
+    left: 165px;
+    right: 808px;
+    top: 501px;
+    bottom: 134px;
+
+}
+
+main img{
+    border-radius: 40px 40px 40px 0px;
+    width: 540px;
+    height: 800px;
+    object-fit: cover; 
+    position: absolute; 
+    z-index: -1;
+    margin-left: 700px; 
+
+}
+
+.left-bar{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 800px;
+    position: relative;
+    align-items: center;
+}
+
+.email {
+
+    width: 459px;
+    height: 58px;
+    color: #000;
+    border-radius: 29px;
+    box-shadow: 0px 17px 42px 0px rgba(0, 0, 0, 0.12);
+    background: rgb(255, 255, 255);
+
+   
+
+}
+
+
